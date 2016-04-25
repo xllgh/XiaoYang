@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xll.administrator.leftmenu.OutBroadcastActivity">
+    <include
+        layout="@layout/actionbar"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/briefIntro"
+            android:hint="@string/simple"
+            android:layout_height="match_parent" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/time"
+            android:hint="@string/time"
+            android:layout_height="match_parent" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/connect"
+            android:hint="@string/connect"
+            android:layout_height="match_parent" />
+
+    </android.support.design.widget.TextInputLayout>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_height="120dp"
+        android:layout_width="match_parent"
+        android:lines="3"
+        android:padding="2dp"
+        android:gravity="top"
+        android:id="@+id/introduce"
+        android:hint="@string/introduce"
+        android:background="@drawable/shape_roundrec"
+        />
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/img"
+        />
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:text="@string/sure"
+        android:textColor="@android:color/white"
+        android:id="@+id/sure"
+        android:background="@drawable/shape_roundrec_solide"
+        />
+</LinearLayout>

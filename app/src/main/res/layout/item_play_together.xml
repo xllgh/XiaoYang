@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="58dp">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+        <ImageView
+            android:layout_height="58dp"
+            android:layout_width="58dp"
+            android:id="@+id/avatar"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/name"
+            android:text="xiell"
+            android:layout_toEndOf="@+id/avatar"
+            android:layout_toRightOf="@+id/avatar"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/gendar"
+            tools:backgroud="@drawable/female"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_below="@+id/name"
+            android:lines="3"
+            android:id="@+id/detail"
+            tools:text="weerrttgffee //n ffff"
+            android:layout_toEndOf="@+id/avatar"
+            android:layout_toRightOf="@+id/avatar"
+            />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="@color/trans_grey"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/detail"
+            android:id="@+id/sep"
+            />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/sep"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/category"
+                tools:text="运动" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/ptime"
+                tools:text="2016/4/3下午" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/time" />
+
+            </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

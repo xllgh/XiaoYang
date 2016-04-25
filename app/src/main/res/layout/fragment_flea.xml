@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xll.administrator.ui.FragmentPlayTogether">
+
+    <android.support.v4.view.ViewPager
+    android:layout_height="0dp"
+    android:layout_weight="2.5"
+    android:layout_width="match_parent"
+    android:id="@+id/viewPager"
+    />
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="5dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/sep"
+
+            />
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="2dp"
+            android:id="@+id/ivLeft"
+            android:layout_toLeftOf="@+id/sep"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_indicator"
+            />
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="2dp"
+            android:id="@+id/ivRight"
+            android:layout_toRightOf="@+id/sep"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_indicator"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/se"
+            android:text="@string/recycle"
+            android:id="@+id/recycle"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/se"
+            android:id="@+id/findBook"
+            android:text="@string/findbook"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/se"
+            android:text="@string/findexam"
+            android:id="@+id/findExam"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/se"
+            android:text="@string/findother"
+            android:id="@+id/findOther"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerView"
+            />
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

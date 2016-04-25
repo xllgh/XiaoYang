@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="lineLength" format="dimension" />
+    <attr name="ballRadius" format="dimension" />
+    <attr name="hintText" format="string" />
+    <attr name="lineColor" format="integer" />
+    <attr name="ballColor" format="integer" />
+    <attr name="textColor" format="integer" />
+    <attr name="text" format="string"/>
+
+    <declare-styleable name="hangBall">
+        <attr name="lineLength" />
+        <attr name="ballRadius" />
+        <attr name="hintText" />
+        <attr name="lineColor" />
+        <attr name="ballColor" />
+        <attr name="textColor" />
+        <attr name="text"/>
+
+    </declare-styleable>
+
+
+</resources>

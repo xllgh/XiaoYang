@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/find_mate"
+        android:icon="@drawable/menu1"
+        android:title="@string/playmate" />
+    <item
+        android:id="@+id/sale"
+        android:icon="@drawable/menu2"
+        android:title="@string/sale" />
+    <item
+        android:id="@+id/broadcast"
+        android:icon="@drawable/menu3"
+        android:title="@string/broadcast" />
+    <item
+        android:id="@+id/create"
+        android:icon="@drawable/menu4"
+        android:title="@string/out" />
+
+</menu>
